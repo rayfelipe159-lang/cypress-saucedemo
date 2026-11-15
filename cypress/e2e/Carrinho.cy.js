@@ -25,7 +25,7 @@ describe('Carrinho', () =>{
 
     //conclui a compra e gera o PDF
     it('Gerar PDF da compra', () => {
-        cy.get('[data-test="generate-pdf-order"]').click
+        cy.get('[data-test="generate-pdf-order"]').click()
     })
 
 
